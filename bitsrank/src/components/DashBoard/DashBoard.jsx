@@ -16,7 +16,6 @@ function Dashboard() {
         <Route path="profile" element={<Profile />} />
       </Routes>
 
-      {/* Nested routes content will be rendered here */}
       <Outlet />
     </>
   );
