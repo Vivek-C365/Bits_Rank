@@ -1,0 +1,6 @@
+.supercharge_title {
+    background: linear-gradient(to right, #c700ff, #ff9400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

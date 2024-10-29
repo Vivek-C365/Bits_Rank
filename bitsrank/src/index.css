@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Toastify styles */
+
+/* For smaller screens */
+@media (max-width: 600px) {
+  .Toastify__toast {
+    font-size: 10px;
+    bottom: 10%;
+  }
+
+  .Toastify__close-button {
+    font-size: 12px;
+  }
+}
+
+.signup_texture_backdrop {
+  background-image: linear-gradient(#d6d6d615 1.8px, transparent 1.8px),
+    linear-gradient(90deg, #d6d6d615 1.8px, transparent 1.8px),
+    linear-gradient(#d6d6d615 0.9px, transparent 0.9px),
+    linear-gradient(90deg, #d6d6d615 0.9px, #ffffff00 0.9px);
+  background-size: 45px 45px, 45px 45px, 9px 9px, 9px 9px;
+  background-position: -1.8px -1.8px, -1.8px -1.8px, -0.9px -0.9px,
+    -0.9px -0.9px;
+  height: 100vh;
+}
+
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
+}
